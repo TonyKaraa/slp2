@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041336E526DB678700497567 /* slp2ProjectOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041336D226DB678200497567 /* slp2ProjectOneApp.swift */; };
+		041336E626DB678700497567 /* slp2ProjectOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041336D226DB678200497567 /* slp2ProjectOneApp.swift */; };
+		041336E726DB678700497567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041336D326DB678200497567 /* ContentView.swift */; };
+		041336E826DB678700497567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041336D326DB678200497567 /* ContentView.swift */; };
+		041336E926DB678700497567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041336D426DB678600497567 /* Assets.xcassets */; };
+		041336EA26DB678700497567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041336D426DB678600497567 /* Assets.xcassets */; };
+		047E153726E7AA430076EE24 /* beppe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 047E153626E7AA420076EE24 /* beppe.m4a */; };
+		047E153826E7AA430076EE24 /* beppe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 047E153626E7AA420076EE24 /* beppe.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041336D226DB678200497567 /* slp2ProjectOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slp2ProjectOneApp.swift; sourceTree = "<group>"; };
+		041336D326DB678200497567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		041336D426DB678600497567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041336D926DB678600497567 /* slp2ProjectOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slp2ProjectOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041336DC26DB678700497567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041336E126DB678700497567 /* slp2ProjectOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slp2ProjectOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041336E326DB678700497567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041336E426DB678700497567 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		047E153626E7AA420076EE24 /* beppe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beppe.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041336D626DB678600497567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041336DE26DB678700497567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041336CC26DB678200497567 = {
+			isa = PBXGroup;
+			children = (
+				041336D126DB678200497567 /* Shared */,
+				041336DB26DB678600497567 /* iOS */,
+				041336E226DB678700497567 /* macOS */,
+				041336DA26DB678600497567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041336D126DB678200497567 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				047E153526E7AA010076EE24 /* Media */,
+				041336D226DB678200497567 /* slp2ProjectOneApp.swift */,
+				041336D326DB678200497567 /* ContentView.swift */,
+				041336D426DB678600497567 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		041336DA26DB678600497567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041336D926DB678600497567 /* slp2ProjectOne.app */,
+				041336E126DB678700497567 /* slp2ProjectOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041336DB26DB678600497567 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				041336DC26DB678700497567 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		041336E226DB678700497567 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				041336E326DB678700497567 /* Info.plist */,
+				041336E426DB678700497567 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		047E153526E7AA010076EE24 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				047E153626E7AA420076EE24 /* beppe.m4a */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041336D826DB678600497567 /* slp2ProjectOne (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041336ED26DB678700497567 /* Build configuration list for PBXNativeTarget "slp2ProjectOne (iOS)" */;
+			buildPhases = (
+				041336D526DB678600497567 /* Sources */,
+				041336D626DB678600497567 /* Frameworks */,
+				041336D726DB678600497567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "slp2ProjectOne (iOS)";
+			productName = "slp2ProjectOne (iOS)";
+			productReference = 041336D926DB678600497567 /* slp2ProjectOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041336E026DB678700497567 /* slp2ProjectOne (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041336F026DB678700497567 /* Build configuration list for PBXNativeTarget "slp2ProjectOne (macOS)" */;
+			buildPhases = (
+				041336DD26DB678700497567 /* Sources */,
+				041336DE26DB678700497567 /* Frameworks */,
+				041336DF26DB678700497567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "slp2ProjectOne (macOS)";
+			productName = "slp2ProjectOne (macOS)";
+			productReference = 041336E126DB678700497567 /* slp2ProjectOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041336CD26DB678200497567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					041336D826DB678600497567 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					041336E026DB678700497567 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 041336D026DB678200497567 /* Build configuration list for PBXProject "slp2ProjectOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041336CC26DB678200497567;
+			productRefGroup = 041336DA26DB678600497567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041336D826DB678600497567 /* slp2ProjectOne (iOS) */,
+				041336E026DB678700497567 /* slp2ProjectOne (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041336D726DB678600497567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047E153726E7AA430076EE24 /* beppe.m4a in Resources */,
+				041336E926DB678700497567 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041336DF26DB678700497567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047E153826E7AA430076EE24 /* beppe.m4a in Resources */,
+				041336EA26DB678700497567 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041336D526DB678600497567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041336E726DB678700497567 /* ContentView.swift in Sources */,
+				041336E526DB678700497567 /* slp2ProjectOneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041336DD26DB678700497567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041336E826DB678700497567 /* ContentView.swift in Sources */,
+				041336E626DB678700497567 /* slp2ProjectOneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		041336EB26DB678700497567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041336EC26DB678700497567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		041336EE26DB678700497567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WT77VV47BZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony-kara.slp2ProjectOne";
+				PRODUCT_NAME = slp2ProjectOne;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041336EF26DB678700497567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WT77VV47BZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony-kara.slp2ProjectOne";
+				PRODUCT_NAME = slp2ProjectOne;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041336F126DB678700497567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WT77VV47BZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony-kara.slp2ProjectOne";
+				PRODUCT_NAME = slp2ProjectOne;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		041336F226DB678700497567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WT77VV47BZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony-kara.slp2ProjectOne";
+				PRODUCT_NAME = slp2ProjectOne;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041336D026DB678200497567 /* Build configuration list for PBXProject "slp2ProjectOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041336EB26DB678700497567 /* Debug */,
+				041336EC26DB678700497567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041336ED26DB678700497567 /* Build configuration list for PBXNativeTarget "slp2ProjectOne (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041336EE26DB678700497567 /* Debug */,
+				041336EF26DB678700497567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041336F026DB678700497567 /* Build configuration list for PBXNativeTarget "slp2ProjectOne (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041336F126DB678700497567 /* Debug */,
+				041336F226DB678700497567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041336CD26DB678200497567 /* Project object */;
+}
